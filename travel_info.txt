@@ -1,0 +1,8 @@
+continent: Europe
+country: France
+city/nature: city
+place: Paris
+season: summer
+duration: 888
+budget: middle
+default: I plan to visit in sdfsdf
