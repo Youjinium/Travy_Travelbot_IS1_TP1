@@ -60,7 +60,7 @@ def chatbot_response(entity, is_true, responses, value):
             response = responses[1].format(value)
     elif entity == 'budget':
         if is_true:
-            budget = budget_map.get(value),
+            budget = budget_map.get(str(value))
             response = responses[0].format(value, budget)
         else:
             response = responses[1].format(value)
